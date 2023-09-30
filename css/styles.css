@@ -13,14 +13,14 @@ body {
 header {
   height: 72px;
 }
-header,
+/* header,
 a,
 nav,
 ul,
 li,
 address {
   display: inline;
-}
+} */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -65,6 +65,8 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--WHITE, #ffffff);
+}
+.section-order-h2 {
 }
 .section-strategy-h3 {
   font-weight: 500;
