@@ -30,7 +30,7 @@ address {
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
 }
-.logo > span {
+.logo-span {
   color: var(--NAVY-BLUE, #2e2f42);
 }
 .link {
@@ -134,7 +134,8 @@ address {
   color: var(--WHITE, #ffffff);
   cursor: pointer;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background: var(--OCEAN, #404bbf);
 }
 .button-product {
@@ -147,7 +148,8 @@ address {
   color: var(--IRIS, #4d5ae5);
   cursor: pointer;
 }
-.button-product:hover {
+.button-product:hover,
+.button-product:focus {
   background: var(--OCEAN, #404bbf);
   color: var(--WHITE, #ffffff);
 }
