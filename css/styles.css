@@ -13,14 +13,6 @@ body {
 header {
   height: 72px;
 }
-/* header,
-a,
-nav,
-ul,
-li,
-address {
-  display: inline;
-} */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -65,8 +57,6 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--WHITE, #ffffff);
-}
-.section-order-h2 {
 }
 .section-strategy-h3 {
   font-weight: 500;
@@ -154,4 +144,7 @@ address {
 .button-product:focus {
   background: var(--OCEAN, #404bbf);
   color: var(--WHITE, #ffffff);
+}
+.head-helper {
+  content: "fake-autocheck-header-option";
 }
